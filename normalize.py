@@ -66,9 +66,9 @@ def normalize(hand_landmarks):
         hand_landmarks[i].y = b[1] 
 
     #unshift
-    for i in range(len(hand_landmarks)):
-        hand_landmarks[i].x += xdist
-        hand_landmarks[i].y += ydist
+    # for i in range(len(hand_landmarks)):
+    #     hand_landmarks[i].x += xdist
+    #     hand_landmarks[i].y += ydist
     
 
     #scale each landmark
